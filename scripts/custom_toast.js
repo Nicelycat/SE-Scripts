@@ -19,7 +19,7 @@ var settingsContext = {
         events: [],
 };
 
-var defaultPrompt = "Welcome back to Snapchat";
+var defaultPrompt = "HEY NIGGER";
 
 function createManagerToolBoxUI() {
     settingsContext.events.push({
