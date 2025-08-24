@@ -19,13 +19,13 @@ var settingsContext = {
         events: [],
 };
 
-var defaultPrompt = "HEY NIGGER";
+var defaultPrompt = "Welcome to Snapchat";
 
 function createManagerToolBoxUI() {
     settingsContext.events.push({
         start: function (builder) {
             builder.row(function (builder) {
-                builder.textInput("Type a Custom Toast here", config.get("customPrompt", defaultPrompt), function (value) {
+                builder.textInput("HEY BRO", config.get("customPrompt", defaultPrompt), function (value) {
                     config.set("customPrompt", value, true);
                 }) .maxLines(8)
                    .singleLine(false);
